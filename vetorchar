@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+char nome[] = "Matheus";
+char letra[1]; 
+int i;
+bool existe = false;
+
+int main(){
+	
+	printf("Digite uma letra para ver se tem na string: ");
+	scanf("%s", &letra[0]);
+	
+	for(i=0; i<7; i++){
+		if(letra[0] == nome[i]){
+			existe = true;
+		}
+	}
+	
+	if (existe){
+		printf("A letra tem na string");
+	}
+	else{
+		printf("A letra nao tem na string");
+	}
+	
+	
+}
