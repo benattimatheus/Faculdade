@@ -18,7 +18,7 @@ int main(){
 	}
 	
 	for(i = 0; i < TAM ; i++) {
-    	for(j = 0; j < TAM ; j++) {
+    		for(j = 0; j < TAM ; j++) {
 	   		if (i == j){
 	   			somad = somad + mat[i][j];
 			}
